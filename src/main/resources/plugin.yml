@@ -1,0 +1,11 @@
+name: OfflineTeleport
+version: '${project.version}'
+main: net.daechler.offlineteleport.OfflineTeleport
+api-version: 1.19
+authors: [ Daechler ]
+description: Teleports a specific player to a specific location set by the administrator after joining.
+commands:
+  offlineteleport:
+    description: Permission to use /offlineteleport
+    usage: /offlineteleport
+    permission: offlineteleport.use
