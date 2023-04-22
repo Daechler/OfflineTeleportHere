@@ -1,11 +1,12 @@
-name: OfflineTeleport
+name: OfflineTeleportHere
 version: '${project.version}'
-main: net.daechler.offlineteleport.OfflineTeleport
+main: net.daechler.offlineteleporthere.OfflineTeleportHere
 api-version: 1.19
 authors: [ Daechler ]
-description: Teleports a specific player to a specific location set by the administrator after joining.
+description: Teleport a specific player to a specific location after joining.
 commands:
-  offlineteleport:
-    description: Permission to use /offlineteleport
-    usage: /offlineteleport
-    permission: offlineteleport.use
+  offlineteleporthere:
+    description: Teleport a specific player to a specific location after joining.
+    usage: /offlineteleporthere
+    permission: offlineteleporthere.use
+    aliases: [otph, otphere]
